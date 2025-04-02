@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Different attribute in input tag</title>
+</head>
+<body>
+    <form >
+        <fieldset>
+            <legend>Pesonal </legend>
+            <input type="text" placeholder="Enter username" minlength="5" autofocus><br><br>
+        <input type="password" name="password" placeholder="Enter password " required> <br><br>
+
+        <input type="email" name="email"  placeholder="Enter email"> <br><br>
+
+        <input type="number" name="age" min="18" max="40" placeholder="Age"> <br><br>
+
+        </fieldset>
+        <fieldset>
+            <legend>Educational Info</legend>
+            <label for="">Gender:</label>
+            <input type="radio" name="Gender" value="male">male
+            <input type="radio" name="Gender" value="female">female
+            <input type="radio" name="Gender" value="others" required>others <br><br><br>
+    
+            <label for="">Language:</label>
+            <input type="checkbox" name="hindi" value="Hindi">Hindi
+            <input type="checkbox" name="hindi" value="English">English
+            <input type="checkbox" name="hindi" value="kanada">kanada <br><br>
+    
+        </fieldset>
+
+        <fieldset>
+            <legend>Experience</legend>
+            <input type="color"> <br><br><br>
+            <label for="">location</label>
+            <select name="location" id="">
+                <option value="hydrabad" disabled>hydrabad</option>
+                <option value="chennai">chennai</option>
+                <option value="odisha">odisha</option>
+    
+    
+            </select><br><br>
+    
+            <input type="submit">
+    
+
+        </fieldset> <br><br>
+
+        <label for="">Feedback:</label>
+        <textarea name="Feedback" id="" rows="3" cols="50"></textarea>
+        
+        
+
+
+    </form>
+</body>
+</html>

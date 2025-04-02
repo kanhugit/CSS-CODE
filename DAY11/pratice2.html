@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pratice 2</title>
+    <style>
+        form{
+            background-color: aqua;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-left: 10px;
+            
+            
+        }
+        #a{
+            padding-left: 500px;
+            padding-right: 500px;
+        }
+        #b{
+            margin-left: 90px;
+            background-color: rgb(59, 230, 59);
+        }
+        #c{
+            margin-left: 10px;
+            background-color: blueviolet;
+        }
+        
+            
+
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;"><u>Project Management</u></h1>
+    <div class="col-md-4" id="a" >
+        
+        <form action="https://www.google.com" method="post">
+            
+            <label for="pro">Project Name</label>
+            <input type="text" id="pro" name="project" placeholder="project name"> <br><br>
+
+        <label for="Assign">Assign to</label>
+            
+        <select name="place" id="Assign"> 
+        <option value="Kanhu">Kanhu ch. Behera</option>
+
+         <option value="Saswati">Saswati soumya sahoo</option>
+
+         <option value="Kanmya">Kamya Reddy</option>
+
+          <option value="Bikram">Bikram senapati</option> 
+          </select> <br><br>
+          <label for="startdate">Start Date</label>
+          <input type="date" name="startdate" id="startdate"> <br><br>
+
+          <label for="enddate">End Date</label>
+          <input type="date" name="enddate" id="enddate"> <br><br>
+
+          <label for="priority">Priority</label>
+          <input type="radio" name="priority" id="priority" value="high">High
+          <input type="radio" name="priority" id="priority" value="Average">Average
+          <input type="radio" name="priority" id="priority" value="low">Low <br><br>
+
+          <label for="des">Description</label> 
+        
+          <textarea name="Description" id="des" rows="3" cols="20"></textarea><br><br> 
+          <!-- <input type="submit" name="submit" value="submit" >
+          <input type="submit" name="clear" value="clear" > -->
+          <button id="b">submit</button>
+          <button id="c">clear</button>
+          
+        </form>
+
+
+
+    </div>
+</body>
+</html>

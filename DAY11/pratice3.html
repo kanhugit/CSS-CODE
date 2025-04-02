@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pratice 3</title>
+</head>
+<body>
+    <form >
+        <table border="3px" >
+            <thead style="background-color:lightblue">
+                <tr>
+                    <th>Name</th>
+                    <th>value</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Name</td>
+                    <td><input type="text" name="name"></td>
+                </tr>
+                <tr>
+                    <td>Sex</td>
+                    <td><input type="radio" name="sex" value="male">Male
+                    <input type="radio" name="sex" value="female">Female
+                    </td>
+                </tr>
+                <tr>
+                    <td>Eye Color</td>
+                    <td><select name="eyecolor" id="eyecolor">
+                        <option value="green">green</option>
+                        <option value="blue">blue</option>
+                        <option value="black">black</option>
+                        <option value="grey">grey</option>
+
+                    </select></td>
+                </tr>
+                <tr>
+                    <td>check all that apply</td>
+                    <td><input type="checkbox" name="apply" value="ov6fttal">Over 6 feet tall <br>
+                    <input type="checkbox" name="apply" value="ov200pd">Over 200 pounds</td>
+                </tr>
+                <tfoot>
+                    <td colspan="2">Describe your athletic ability: <br>
+                        <textarea name="describe" id="" rows="3" cols="40" minlength="5" maxlength="20"></textarea> <br>
+                        <!-- <button>Enter my information</button> -->
+                        <input type="submit" name="submit" value="Enter my information">
+                    </td>
+                    
+                    
+                </tfoot>
+                
+            </tbody>
+        </table>
+    </form>
+</body>
+</html>
