@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paragraph Coding and Outlining</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+        .paragraph {
+            position: relative;
+            padding: 10px;
+            border: 2px solid #000;
+            width: fit-content;
+            background-color: #fff;
+        }
+        .paragraph::before {
+            content: ' ';
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 6px;
+            background-color: #ffeb3b; /* Yellow color */
+        }
+        .paragraph .highlight-green {
+            background-color: #c8e6c9; /* Light Green color */
+        }
+        .paragraph .highlight-red {
+            background-color: #ffcdd2; /* Light Red color */
+        }
+        .key-title {
+            font-size: 1.5em;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="key-title">Paragraph Coding and Outlining</div>
+    
+    <div class="paragraph">
+        <p class="highlight-green">She loves to play with anything that moves, from cat toys to bugs to feet.</p>
+        <p class="highlight-red">She has a pink stuffed cow toy mouse and chasing a blue mouse to chew, though, might be her favorite.</p>
+        <p class="highlight-green">Lola is a very affectionate kitty when she is not in a playful mood.</p>
+        <p class="highlight-red">She loves when we pet her and purrs to let us know that she likes it. She often sleeps on the computer or watches TV.</p>
+        <p class="highlight-green">Lola is also very curious and likes to follow us around the house to see what we’re doing.</p>
+        <p class="highlight-red">If there’s something new and interesting, she wants to join in and investigate.</p>
+    </div>
+
+</body>
+</html>

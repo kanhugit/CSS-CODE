@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid example</title>
+    <style>
+                #grid-container{
+            border: 2px solid black;
+            height: 600px;
+            padding-left: 0px;
+            /* background-color:greenyellow; */
+            display: grid;
+            grid-template-rows: 100px 100px 100px 100px  100px ;
+            grid-template-columns: 100px 100px 100px 100px 100px;
+            row-gap: 20px;
+            column-gap: 20px;
+        }
+
+        .class{
+            border: 2px solid red;
+            background-color: blue;
+            color: white;
+            font-size: 50px;
+        }
+        #child3{
+            grid-column: 3/9;
+        }
+        #child4,#child5{
+            grid-row: 2/4;
+        }
+        #child6{
+            grid-column: 3/9;
+            grid-row:2/4;
+        }
+        #child9{
+            grid-column: 3/9;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="grid-container">
+        <div id="child1" class="class">1</div>
+        <div id="child2" class="class"> 2</div>
+        <div id="child3" class="class"> 3</div>
+        <div id="child4" class="class"> 4</div>
+        <div id="child5" class="class"> 5</div>
+        <div id="child6" class="class"> 6</div>
+        <div id="child7" class="class">7</div>
+        <div id="child8" class="class"> 8</div>
+        <div id="child9" class="class"> 9</div>
+
+
+        </div>
+    </div>
+</body>
+
+</html>

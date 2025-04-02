@@ -1,0 +1,125 @@
+/* unvisited link */
+a:link {
+    color:red;
+    
+}
+
+/* visited link */
+a:visited{
+    color: green;
+    
+}
+
+/* active link */
+a:active{
+    background-color:purple;
+}
+
+/* mouse hover */
+a:hover{
+    color: hotpink;
+}
+
+
+div{
+    background-color: green;
+    color:white;
+    padding: 25px;
+    text-align: center;
+}
+
+/* hover on div */
+div:hover{
+    background-color: blue;
+}
+
+/* first style on paragraph tag */
+p:first-child {
+    
+    color: red;
+}
+h1:first-child {
+    color: blueviolet;
+}
+
+/* last style on paragrap */
+p:last-child{
+    background-color:yellowgreen;
+}
+
+/* checked selector */
+input:checked{
+    height: 50px;
+    width: 50px;
+}
+
+/* disabled selector  */
+input[type=text]:enabled{
+    background-color: aqua;
+}
+input[type=text]:disabled{
+    background-color: yellow;
+}
+
+option:disabled{
+    background-color: red;
+}
+
+
+/* empty selector */
+
+p:empty{
+    width: 100px;
+    height: 20px;
+    background-color:red;
+}
+
+th:hover,td:hover{
+    background-color: yellow;
+}
+
+
+
+/* li:nth-child(odd){
+    background-color: chartreuse;
+} */
+
+
+/* li:nth-child(even){
+    background-color: tomato;
+} */
+
+
+
+li:nth-child(1){
+    background-color: blueviolet;
+}
+li:nth-child(2){
+    background-color: yellowgreen;
+}
+li:nth-child(3){
+    background-color: hotpink;
+}
+li:nth-child(4){
+    background-color: black;
+}
+li:nth-child(5){
+    background-color:skyblue;
+}
+li:nth-child(6){
+    background-color:darkgreen;
+}
+li:nth-child(7){
+    background-color: darkred;
+}li:nth-child(8){
+    background-color: teal;
+}li:nth-child(9){
+    background-color:darkslategray;
+}li:nth-child(10){
+    background-color: whitesmoke;
+}li:nth-child(11){
+    background-color: blue;
+}
+
+
+

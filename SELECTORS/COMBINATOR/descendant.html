@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desecendant combinators</title>
+    <style>
+        div h1{
+            background-color: blue;
+        }
+        div p{
+            background-color: aqua;
+        }
+       .a, #demo p{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Desecendant combinator selector</h1>
+    <p>It will target all the direct members as well as indirect members of  specified tag.</p>
+    <p>It is represented with space </p>
+
+    <div>
+        <h1>h1 tag - first child of div(direct member) </h1>
+        <p> p tag - second child of div(direct member) </p>
+
+        <span id="demo">
+            <p>p tag - child of span(indirect member) </p>
+        </span>
+        <h1>h1 tag - 3rd child  of div(direct member)</h1>
+        <p class="a"> p tag- 4th child  of div(direct member) </p>
+    </div>
+
+    
+
+    
+</body>
+</html>

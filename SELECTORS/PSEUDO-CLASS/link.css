@@ -1,0 +1,17 @@
+/* link pseudo class will target unvisited state of hyperlink */
+/* a: link{
+    color:orange;
+}
+ */
+
+ #link1:link{
+    color: orange;
+
+ }
+ input:focus{
+    background-color: aqua;
+    color: blue;
+ }
+ input :focus{
+    accent-color: red;
+ }

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PSEUDO CLASS SELECTORS</title>
+  
+</head>
+  <style>
+    p {
+      display: none;
+      background-color: yellow;
+      padding: 20px;
+    }
+
+    div:hover p {
+      display: block;
+    }
+
+    input:focus {
+      background-color: gray;
+      height: 50px;
+      width: 300px;
+    }
+
+    input:valid {
+      background-color: brown;
+    }
+
+    :target{
+      border: 2px solid green;
+      background-color: aqua;
+    }
+    :root{
+      background-color:yellowgreen;
+    }
+    textarea:required{
+      background-color:blue;
+    }
+    select:required{
+      background-color:darkviolet;
+    }
+    input:out-of-range{
+      border: 2px solid red;
+    }
+    /* input:read-write{
+      background-color: cadetblue;
+    } */
+  </style>
+</head>
+
+<body>
+
+  <div>Hover over this div element to show the p element
+    <p>Tada! Here I am!</p>
+  </div>
+  <br><br><br><br><br>
+
+  <input type="text" name="name" placeholder="click here to get focus">
+
+  <br><br><br>
+
+  <input type="email" value="abc@gmail.com"> <br>
+  <p>Try typing an illegal e-mail address ,to see the styling disapper</p>
+  <br><br><br>
+
+  <b><a href="#news1">Jump to new content 1</a></b> <br><br>
+  <b><a href="#news2">Jump to new content 2</a></b>  <br><br>
+  <div id="news1"><b>New content 1</b></div> <br><br>
+  <div id="news2"><b>New content 2</b></div>
+<br><br>
+<textarea required></textarea> <br>
+<select name="vegitable" id="" required>
+  <option value="alu">alu</option>
+  <option value="piaja">piaja</option>
+  <option value="tomato">tomato</option>
+  <option value="rasuna">rasuna</option>
+</select> <br><br><br><br>
+
+<div>
+  <input type="number" min="5" max="10" value="17">
+</div>
+
+<!-- <p>Noraml input: <br>
+<input value="kanha"></p>
+
+<p>Radonly input: <br>
+<input value="kanha" readonly>
+</p> -->
+
+
+
+
+
+</body>
+
+</html>

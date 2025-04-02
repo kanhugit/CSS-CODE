@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cart </title>
+    <style>
+        #card{
+            border: 2px solid red;
+            height: 380px;
+            width: 180px;
+            padding: 20px;
+            background-color: black;
+
+        }
+        p,h1{
+            color: aqua;
+        }
+        button{
+            background-color: aqua;
+            border-radius: 10px;
+            color: blue;
+            padding: 2px;
+            
+        }
+        #card-container,#gradients,#name{
+            display: flex;
+            /* justify-content: center; */
+            justify-content: space-evenly;
+            
+        }
+        button:hover{
+            padding: 5px;
+            transition: all;
+
+
+        }
+        img{
+            border-radius: 10px;
+        }
+        #liner,#conic,#radial{
+            height: 200px;
+            width: 200px;
+        }
+        /* button {
+  width: 10px;
+  height: 10px;
+  background: red;
+  transition-property: width, height;
+  transition-duration: 2s;
+}
+
+button:hover {
+  width: 30px;
+  height: 30px;
+} */
+
+
+#linear{
+    height: 100px;
+    width: 100px;
+    background-image: linear-gradient(45deg,green,yellow, blue);
+}
+#radiant{
+    height: 100px;
+    width: 100px;
+    background-image:radial-gradient(red,purple,gray,black,orange,white)
+}
+#conic{
+    height: 100px;
+    width: 100px;
+    background-image:conic-gradient(rgb(255, 0, 93),purple,gray,black,orange,white)
+}   
+
+
+    </style>
+</head>
+<body>
+<div id="card-container">
+    <div id="card">
+        <img src="https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_1280.jpg" alt="" height="100px" width="100px">
+        <h1>CAT</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor minima quasi debitis cupiditate distinctio voluptatum error iure alias soluta ducimus totam, ad rationeniam natus?</p>
+        <button>READ MORE...</button>
+    </div>
+    <div id="card">
+        <img src="https://cdn.pixabay.com/photo/2019/04/10/23/51/animal-4118585_1280.jpg" alt="" height="100px" width="100px">
+        <h1>DOG</h1>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor minima quasi debitis cupiditate distinctio voluptatum error iure alias soluta ducimus totam, a, laborum quam fugiat veniam natus?</p>
+        <button>READ MORE...</button>
+    </div>
+    <div id="card">
+        <img src="https://cdn.pixabay.com/photo/2017/10/20/10/58/elephant-2870777_1280.jpg" alt="" height="100px" width="100px">
+        <h1>ELEPHANT</h1>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor minima quasi debitis cupiditate distinctio voluptatum error iure alias soluta ducimus totam, laborum quam fugiat veniam natus?</p>
+        <button>READ MORE...</button>
+    </div>
+    
+
+</div>
+<br><br><br><br><br>
+<div id="gradients">
+    <div id="linear"></div>
+    <div id="radiant"></div>
+    <div id="conic"></div>
+</div>
+<br><br><br><br><br>
+<div id="name">
+    <div>linear-gradient</div>
+    <div>radial-gradient</div>
+    <div>conic-gradient</div>
+
+</div>
+</body>
+</html>

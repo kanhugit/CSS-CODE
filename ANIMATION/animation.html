@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation Properties</title>
+    <style>
+        #div1{
+            height: 200px;
+            width: 200px;
+            background-color: black;
+            animation-name: Kanha;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            /* animation-delay: 2s; */
+            margin-left: 0px;
+            
+
+        }
+        @keyframes Kanha {
+            from{
+                margin-left: 0px;
+                transform: rotate(0deg);
+                border-radius: 0%;
+                background-color: aqua;
+            }
+            to{
+                margin-left: 900px;
+                transform: rotate(90deg);
+                border-radius: 50%;
+                background-color: red;
+
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div id="div1"></div>
+</body>
+</html>

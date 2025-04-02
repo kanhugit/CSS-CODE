@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adjacent sibilings combinators</title>
+    <style>
+        div+p{
+            background-color: blue;
+        }
+        span+p{
+            background-color: aqua;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Adjacent siblings combinator selector.</h1>
+    <p>It will target the element which is present immediately after the specified tag.</p>
+    <p>It is represented with + </p>
+
+    <div>
+        <h1>h1 tag - first child of div </h1>
+        <p> p tag - second child of div </p>
+
+        <span>
+            <p>p tag - 1st child of span </p>
+            <p>p tag- 2nd child of span  </p>
+        </span>
+        <p> p tag -adjacent siblings of span</p>
+        <p>p tag-not adjacent siblings of span </p>
+    </div>
+            <p> p tag -adjacent siblings of div</p>
+            
+            
+            
+    
+
+    
+</body>
+</html>

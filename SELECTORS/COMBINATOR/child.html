@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Child combinator selector</title>
+    <style>
+        div >h1{
+            background-color: blue;
+        }
+        span>p{
+            background-color: gray;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <h1>Child  combinator selector</h1>
+    <p>It will target only the direct members of the specified tag.</p>
+    <p>It is represented with > </p>
+
+    <div>
+        <h1>h1 tag - first child of div(direct member of div) </h1>
+        <p> p tag - second child of div(direct member of div) </p>
+
+        <span >
+            <p>p tag - child of span (direct member of span)</p>
+        </span>
+        <h1>h1 tag-3rd child of div(direct member of div )</h1>
+    </div>
+
+    
+
+    
+</body>
+</html>

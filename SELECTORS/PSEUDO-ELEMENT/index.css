@@ -1,0 +1,29 @@
+p::first-line{
+    background-color: aqua;
+}
+::first-letter{
+    font-size: 50px;
+    color: red;
+}
+
+p::selection{
+    color:blue;
+    background-color:yellow;
+}
+
+a::before{
+    content: url();
+}
+p::after{
+    content: "kanha behera a web developer";
+}
+a::before{
+    content: "❤️ ";
+}
+a::after{
+    content: "😍🤣";
+}
+
+li::marker{
+    color: green;
+}

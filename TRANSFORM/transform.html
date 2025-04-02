@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRANSFORM Property </title>
+    <style>
+        h1{
+            text-align: center;
+            background-image: url(https://cdn.pixabay.com/photo/2015/02/28/10/20/background-image-653353_1280.jpg);
+            color: white;
+            padding:40px;
+            text-decoration: underline;
+            border-radius: 20px;
+
+        }
+        .container{
+            background-color: aqua;
+            border: 2px solid blue;
+            height: 200px;
+            width: 200px;
+            font-size: 20px;
+            justify-content: center;
+            align-items: center;
+            color: green;
+            border-radius: 10px;
+            
+        }
+        #div1:hover{
+            transform: rotate(45deg);
+        }
+        #div2:hover{
+            transform:scale(0.5);
+        }
+        #div3:hover{
+            /* transform:translate(50px); */
+            transform: translate(60px,60px);
+
+        }
+        #div4:hover{
+            transform: skew(45deg);
+        }
+        #div5:hover{
+            transform: rotate(45deg);
+        }
+        #div6:hover{
+            transform: rotateX(45deg);
+        }
+        #div7:hover{
+            transform: rotateY(45deg);
+        }
+        #div8:hover{
+            transform: rotate(45deg);
+        }
+        #div9:hover{
+            transform: scale(0.5);
+        }
+        #div10:hover{
+            transform: scaleX(0.8)
+        }
+        #div11:hover{
+            transform: scaleY(0.5)
+        }
+        #div12:hover{
+            transform: scale(0.5)
+        }
+        #div13:hover{
+            transform: scale(0.6)
+        }
+        #div14:hover{
+            transform: translate(60px,60px);
+        }
+        #div15:hover{
+            transform: translateX(60px);
+        }
+        #div16:hover{
+            transform: translateY(45px);
+        }
+        #div17:hover{
+            transform: skew(90deg);
+        }
+        #div18:hover{
+            transform: skewX(95deg);
+        }
+        #div19:hover{
+            transform: skewY(45deg);
+        }
+        #div20:hover{
+            transform: skew(45deg,60deg);
+        }
+
+        .names,#main-container{
+            display: flex;
+            justify-content: space-around;
+        }
+        body{
+            /* background:linear-gradient(green ,blue, red) */
+            background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+            /* background-image: url(); */
+    }
+        
+
+    </style>
+</head>
+
+<body>
+
+    <h1>Transform Properties</h1>
+
+    <div class="names">
+        <div>Rotate</div>
+        <div>Scale</div>
+        <div>Transition </div>
+        <div>Skew</div>
+    </div>
+    <div id="main-container">
+        <div id="div1"  class="container">HOVER ON ME</div>
+        <div id="div2" class="container">HOVER ON ME</div>
+        <div id="div3" class="container">HOVER ON ME</div>
+        <div id="div4" class="container">HOVER ON ME</div>
+    </div>
+    <br><br><br><br><br><hr>
+
+    <div class="names">
+    <div>Rotate</div>
+    <div>Scale</div>
+    <div>Transition </div>
+    <div>Skew</div>
+   </div>
+
+    <div id="main-container">
+        <div id="div5" class="container">HOVER ON ME</div>
+        <div id="div6" class="container">HOVER ON ME</div>
+        <div id="div7" class="container">HOVER ON ME</div>
+        <div id="div8" class="container">HOVER ON ME</div> 
+    </div>
+    <br><br><br><br><br><hr>
+    <div class="names">
+    <div>Rotate</div>
+    <div>Scale</div>
+    <div>Transition </div>
+    <div>Skew</div>
+</div>
+    <div id="main-container">
+        <div id="div9" class="container">HOVER ON ME</div>
+        <div id="div10" class="container">HOVER ON ME</div>
+        <div id="div11" class="container">HOVER ON ME</div>
+        <div id="div12" class="container">HOVER ON ME</div>
+        
+    </div>
+    <br><br><br><br><br><hr>
+    <div class="names">
+    <div>Rotate</div>
+    <div>Scale</div>
+    <div>Transition </div>
+    <div>Skew</div>
+   </div>
+    <div id="main-container">
+        <div id="div13" class="container">HOVER ON ME</div>
+        <div id="div14" class="container">HOVER ON ME</div>
+        <div id="div15" class="container">HOVER ON ME</div>
+        <div id="div16" class="container">HOVER ON ME</div>
+    </div>
+    <br><br><br><br><br>
+    <hr>
+    <div class="names">
+    <div>Rotate</div>
+    <div>Scale</div>
+    <div>Transition </div>
+    <div>Skew</div>
+   </div>
+    <div id="main-container">
+        <div id="div17" class="container">HOVER ON ME</div>
+        <div id="div18" class="container">HOVER ON ME</div>
+        <div id="div19" class="container">HOVER ON ME</div>
+        <div id="div20" class="container">HOVER ON ME</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition Properties</title>
+    <style>
+        #div1{
+            height: 200px;
+            width: 200px;
+            background-color: aqua;
+            border-radius: 0px;
+            transform: rotate(45deg);
+
+            /* transition: height 2s ,width 2s,background-color 2s,border-radius 2s,transform 2s; */
+            transition: all 2s;
+        }
+        #div2{
+            height: 200px;
+            width: 200px;
+            background-color: red;
+            /* border-radius: 0px; */
+            /* transform: rotate(45deg); */
+
+            /* transition: height 2s ,width 2s,background-color 2s,border-radius 2s,transform 2s; */
+            transition: all 2s;
+        }
+        #div3{
+            height: 200px;
+            width: 200px;
+            background-color: black;
+            color: aqua;
+            
+            /* overflow: visible; */
+            /* overflow: hidden; */
+            overflow: scroll;
+        }
+        #div4{
+            border: 2px solid black;
+            border-bottom-right-radius: 50%;
+            height: 250px;
+            width: 200px;
+            
+            /* overflow: visible; */
+            overflow: hidden;
+
+        }
+        
+        #div1:hover{
+            height:250px ;
+            width: 250px;
+            background-color: yellow;
+            border-radius: 50%;
+
+        }
+        #div2:hover{
+            transform: rotate(45deg);
+        }
+
+
+    </style>
+</head>
+<body>
+    <div id="div1">
+
+    </div>    
+    <br><br><br>
+    <div id="div2"></div>
+    <br><br><br><br>
+    <div id="div3">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, eligendi distinctio. Eos laudantium quibusdam dolore odio consectetur delectus alias qui, quia vitae. Quae quasi nostrum sunt, suscipit error ea magnam?
+        Voluptates culpa illo veritatis voluptatum! Quasi molestiae asperiores quae ducimus, minima dolore accusamus quidem sapiente culpa facere iste praesentium voluptatum? Eaque, omnis amet ratione magnam autem blanditiis accusantium laudantium quod?
+        Eius error autem eum. Cumque, incidunt. Est blanditiis nostrum delectus ipsum facere incidunt maiores reprehenderit ea aliquid repellendus, pariatur praesentium aperiam alias eaque dignissimos laborum hic dolor, eligendi, facilis unde.
+        Quam atque fuga inventore saepe! Dolor sit odio optio quod impedit officiis tempora soluta debitis necessitatibus, at repellendus obcaecati molestiae, provident deleniti quae eveniet sed modi, laudantium eos vero ad.
+        Eaque dicta commodi similique inventore ea. Iure asperiores dolore esse inventore sequi suscipit, deserunt explicabo dolores corrupti quisquam! Esse nobis ullam nam libero fugit eos reprehenderit, laboriosam eum maiores beatae.</p>
+    </div>
+    <br><br><br><br><br>
+    <div id="div4">
+        <img src="./bike-two-person.webp" alt="" height="300px" width="300px">
+    </div>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media queries</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+            @media only screen and (min-width:601px){
+                p{
+                    font-size: 25px;
+                    background-color: aqua;
+                }
+                #menu-icon{
+                    display: none;
+                }
+            }
+
+
+            @media only screen and (max-width:600px){
+                p{
+                    font-size: 45px;
+                    background-color: rgb(238, 255, 0);
+                }
+                h1{
+                    text-align: center;
+                }
+            }
+        </style>
+</head>
+<body>
+    <h1>Media Queries</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, accusamus? Iusto, rerum. Cum voluptates ipsam doloribus distinctio accusantium, officia reiciendis quisquam, voluptate temporibus ullam id molestias voluptatum illo, ex sequi!
+    At nulla repellat, harum eaque a corrupti, soluta iusto debitis fuga optio obcaecati. Eos esse labore qui omnis, similique dolorem sint cupiditate velit laborum, illum aliquid culpa tempora quo officia?</p>
+    <ul id="list">
+        <li>items</li>
+        <li>items</li>
+        <li>items</li>
+        <li>items</li>
+        <li>items</li>
+        <li>items</li>
+        
+    </ul>
+    <i class="fa-solid fa-bars" id="menu-icon"></i>
+</body>
+</html>

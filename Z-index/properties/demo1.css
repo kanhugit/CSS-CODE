@@ -1,0 +1,40 @@
+h1 {
+  color: blue;
+}
+/* CSS Code Demonstrating Font Properties */
+body {
+  font-family: Arial, Helvetica, sans-serif; /* Specifies the font family */
+  font-size: 16px; /* Specifies the font size */
+  color: #333333; /* Specifies the font color */
+  font-weight: bold; /* Specifies the font weight */
+  font-style: italic; /* Specifies the font style */
+  font-variant: small-caps; /* Specifies the font variant */
+}
+
+/* Example usage for different elements */
+h1 {
+  font-family: "Times New Roman", Times, serif; /* Different font family */
+  font-size: 32px; /* Larger font size */
+  color: #000080; /* Different font color */
+  font-weight: 700; /* Bold text */
+  font-style: normal; /* Normal font style */
+  font-variant: normal; /* Normal variant */
+}
+
+p {
+  font-family: "Courier New", Courier, monospace; /* Monospace font family */
+  font-size: 14px; /* Smaller font size */
+  color: #555555; /* Grayish font color */
+  font-weight: 300; /* Light font weight */
+  font-style: oblique; /* Oblique font style */
+  font-variant: normal; /* Normal variant */
+}
+
+span {
+  font-family: Georgia, "Times New Roman", Times, serif; /* Serif font family */
+  font-size: 18px; /* Medium font size */
+  color: #990000; /* Reddish font color */
+  font-weight: 500; /* Medium font weight */
+  font-style: italic; /* Italic font style */
+  font-variant: small-caps; /* Small caps variant */
+}
