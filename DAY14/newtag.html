@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 New Tags Examples</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header, footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            overflow: hidden;
+        }
+
+        nav ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+        }
+
+        nav ul li a:hover {
+            background-color: #555;
+            border-radius: 5px;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        section, article, aside, figure, details {
+            background-color: #fff;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        figure img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+
+        figcaption {
+            font-style: italic;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        aside {
+            background-color: #f9f9f9;
+        }
+
+        mark {
+            background-color: #ff0;
+            padding: 0 5px;
+        }
+
+        progress {
+            width: 100%;
+            height: 20px;
+        }
+
+        meter {
+            width: 100%;
+        }
+
+        .example {
+            background-color: #f0f0f0;
+            padding: 10px;
+            border-left: 4px solid #444;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>HTML5 New Tags</h1>
+        <p>Exploring the beauty of HTML5 semantic elements</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#section1">Home</a></li>
+            <li><a href="#section2">Article</a></li>
+            <li><a href="#section3">Aside</a></li>
+            <li><a href="#section4">Figure</a></li>
+            <li><a href="#section5">Details</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Section -->
+        <section id="section1">
+            <h2>Welcome to HTML5</h2>
+            <p>This section introduces you to the wonderful world of HTML5. It’s more than just markup—it's a new way to create beautiful, semantic, and responsive websites.</p>
+        </section>
+
+        <!-- Article -->
+        <article id="section2">
+            <h2>A Self-contained Article</h2>
+            <p>HTML5 allows you to create <strong>articles</strong> that are independent and self-contained pieces of content. Here’s an example:</p>
+            <div class="example">
+                <header>
+                    <h3>Learning HTML5</h3>
+                    <time datetime="2024-08-19">August 19, 2024</time>
+                </header>
+                <p>HTML5 introduces a plethora of new tags that make your web content more semantic and accessible. Whether you're creating a blog, a news site, or just a personal webpage, HTML5 has you covered.</p>
+                <footer>
+                    <p>Written by <strong>John Doe</strong></p>
+                </footer>
+            </div>
+        </article>
+
+        <!-- Aside -->
+        <aside id="section3">
+            <h2>Related Content</h2>
+            <p>This is an <strong>aside</strong> that contains related links or content that complements the main article.</p>
+            <ul>
+                <li><a href="./newattribute.html">HTML5 Introduction</a></li>
+                <li><a href="https://www.example.com">CSS3 Overview</a></li>
+            </ul>
+        </aside>
+
+        <!-- Figure -->
+        <section id="section4">
+            <h2>Beautiful Figures</h2>
+            <p>The <strong>figure</strong> element is perfect for adding images with captions:</p>
+            <figure>
+                <img src="https://via.placeholder.com/800x400" alt="Beautiful Landscape">
+                <figcaption>Figure 1: A beautiful landscape captured during sunset.</figcaption>
+            </figure>
+        </section>
+
+        <!-- Details -->
+        <section id="section5">
+            <h2>Interactive Details</h2>
+            <p>The <strong>details</strong> and <strong>summary</strong> elements allow you to create expandable content:</p>
+            <details>
+                <summary>Click to reveal more information</summary>
+                <p>This content is initially hidden. By clicking the summary, you can reveal additional information, making your page more interactive and user-friendly.</p>
+            </details>
+        </section>
+
+        <!-- Mark, Progress, Meter, Output -->
+        <section>
+            <h2>Additional HTML5 Elements</h2>
+            <p>You can also use new tags like <mark>mark</mark> to highlight text, and interactive elements like <strong>progress</strong>, <strong>meter</strong>, and <strong>output</strong>:</p>
+
+            <label for="progress-bar">File Upload Progress:</label>
+            <progress id="progress-bar" value="75" max="100">75%</progress>
+
+            <label for="disk-usage">Disk Usage:</label>
+            <meter id="disk-usage" value="0.7" min="0" max="1">70%</meter>
+
+            <p>The result of the calculation is: <output>42</output></p>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 My Website. All rights reserved.</p>
+        <nav>
+            <ul>
+                <li><a href="#section1">Home</a></li>
+                <li><a href="#section2">Article</a></li>
+                <li><a href="#section3">Aside</a></li>
+                <li><a href="#section4">Figure</a></li>
+                <li><a href="#section5">Details</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+</body>
+</html>
